@@ -1,0 +1,1 @@
+{\n  "extends": "eslint:recommended",\n  "parser": "@typescript-eslint/parser",\n  "plugins": [\n    "@typescript-eslint"\n  ],\n  "rules": {\n    "no-unused-vars": [\n      "error",\n      {\n        "argsIgnorePattern": "^_"\n      }\n    ],\n    "@typescript-eslint/no-explicit-any": "off"\n  }\n}
